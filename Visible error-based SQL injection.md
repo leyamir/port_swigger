@@ -1,8 +1,8 @@
 # sqlmap command to attack 
 
 ---
-sqlmap -u "url" -p cookies="TrackingId=*" --technique=
-sqlmap -r req.txt -p cookies="TrackingId=*" --technique=
+`sqlmap -u "url" -p cookies="TrackingId=*" --technique=`
+`sqlmap -r req.txt -p cookies="TrackingId=*" --technique=`
 --- 
 
 The list of techniques with its letters is as follows:
