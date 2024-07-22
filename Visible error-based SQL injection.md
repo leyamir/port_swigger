@@ -2,6 +2,7 @@
 
 ---
 `sqlmap -u "url" -p cookies="TrackingId=*" --technique=`
+
 `sqlmap -r req.txt -p cookies="TrackingId=*" --technique=`
 --- 
 
