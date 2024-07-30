@@ -23,3 +23,5 @@
 <!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]>
 <!DOCTYPE foo [ <!ENTITY ext SYSTEM "file:///path/to/file" > ]>
 ```
+### SQL payload
+1. **SELECT** what-ever-function-depend-on-version-to-call-XML-entities
