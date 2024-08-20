@@ -18,3 +18,4 @@
 6. or `'; alert();'`
 7. break out an select tag: `</select><img src=1 onerror=alert()>`
 8. `{{$on.constructor('alert(1)')()}}` $on is event handler function in AngularJS
+9. `\"-alert(1)}//` Look for the script that handle directly the input
